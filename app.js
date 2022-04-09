@@ -14,7 +14,7 @@ possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('cli
 }))
 
 function generateComputerChoice() {
-  const randomNumber = Math.floor (Math.random() * 3)
+  const randomNumber = Math.ceil(Math.random() * 3)
   console.log(randomNumber)
 
   if (randomNumber === 1) {
